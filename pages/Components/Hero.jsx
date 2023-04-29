@@ -4,7 +4,7 @@ function Hero() {
   return (
     <article className="flex justify-between h-screen bg-[#A1CABF] px-16 pt-44 overflow-x-hidden">
       <div className="w-6/12">
-        <h1 className="text-7xl font-bold mb-6 text-[#17256E]">Mugloo and Sons</h1>
+        <h1 className="text-7xl font-bold mb-6 text-[#17256E]">Mugloo N Sons</h1>
         <p className="text-lg font-normal text-[#17256E] w-9/12">
           For more than 3 decades, Mugloo & Sons has been manufacturing,
           exporting and supplying an assortment of Kashmiri handicrafts, which
