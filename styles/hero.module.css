@@ -1,0 +1,13 @@
+.heroBannerImage {
+    height: 45rem;
+    object-position: center;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    object-fit: cover;
+    top: 11%;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+    padding-top: -5rem !important;
+    overflow-x: hidden !important;
+  }

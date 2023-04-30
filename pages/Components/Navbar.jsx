@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="h-24 px-20 flex bg-[#A1CABF] justify-between items-center text-[#17256E] overflow-x-hidden">
+    <nav className="h-24 px-20 flex bg-transparent z-1000 justify-between items-center text-[#17256E] overflow-x-hidden">
       <div className="text-3xl">
         <Link href="/">Mugloo</Link>
       </div>
