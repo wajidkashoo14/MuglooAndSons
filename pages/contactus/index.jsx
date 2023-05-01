@@ -1,9 +1,9 @@
 import React from 'react'
 
-function index() {
+function conatctus() {
   return (
     <div>Contact us</div>
   )
 }
 
-export default index
+export default conatctus

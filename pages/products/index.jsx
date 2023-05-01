@@ -1,9 +1,9 @@
 import React from 'react'
 
-function index() {
+function products() {
   return (
     <div>Products</div>
   )
 }
 
-export default index
+export default products

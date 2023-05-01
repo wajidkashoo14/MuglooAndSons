@@ -1,9 +1,9 @@
 import React from 'react'
 
-function index() {
+function ourStory() {
   return (
     <div>About us</div>
   )
 }
 
-export default index
+export default ourStory

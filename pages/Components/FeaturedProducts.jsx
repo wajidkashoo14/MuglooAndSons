@@ -11,11 +11,7 @@ function FeaturedProducts() {
         {products.map((product) => {
           const { id, title, image, detail } = product;
           return (
-            <article
-              key={id}
-              
-              className='w-1/5 h-36 '
-            >
+            <article key={id}className='w-1/5 h-36'>
               <Image src={image} alt="carpet" width={800} height={200} />
               <h2 className="mt-4">{title}</h2>
               <p className='text-md mt-4'>{detail.slice(0,130)}<button className='ml-2 text-[#3366CC] hover:underline'><Link href='/'>Read more</Link></button> </p>
