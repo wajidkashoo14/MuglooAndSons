@@ -14,7 +14,7 @@ function ProductCarousel() {
             <article key={id} className='w-1/5 h-36 shadow-lg shadow-indigo-500/50 '>   
             <Image src={image} alt='carpet' width={500} height={200} />
             <h2 className='mt-6 text-xl'>{title}</h2>
-            <p className='text-md mt-4'>{detail.slice(0,130)}<button className='ml-2 text-[#3366CC] hover:underline'><Link href='/'>Read more</Link></button> </p>
+            <p className='text-md mt-4'>{detail.slice(0,130)}<button className='ml-2 text-[#3366CC] hover:underline'><Link href='/'>Read more...</Link></button> </p>
             </article>
         )
        }))}
