@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import products from './Products'
+import products from '../../Data/Products'
 import Link from 'next/link';
 
 function ProductCarousel() {
